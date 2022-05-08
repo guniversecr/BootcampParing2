@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Clon Google</title>
+
+</head>
+<body>
+
+    <header>
+
+        <nav>
+
+            <ul>
+
+                <li class="user__image">
+                    <img class="profile__picture" src="./assets/img/userImage.jpg" alt="User Image">
+                </li>
+                
+                <li class="app__svg">
+                    
+                    <a class="link__apps" href="https://www.google.co.cr/intl/es-419/about/products?tab=ih" target="_blank">
+                        <svg class="app__icon" focusable="false" viewBox="0 0 24 24">
+                            <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z">
+                            </path>
+                        </svg>
+                    </a>
+                    
+                </li>
+
+                <li class="navbarelement">
+                    <a href="https://www.google.co.cr/imghp?hl=es-419&authuser=0&ogbl" target="_blank">Imágenes</a>
+                </li>
+
+                <li class="navbarelement">
+                    <a href="https://mail.google.com/mail/?authuser=0&ogbl" target="_blank">Gmail</a>
+                </li>
+
+            </ul>
+
+            
+
+            
+
+        </nav>
+
+    </header>
+
+    <section>
+
+        <div class="google__logo">
+            <img src="./assets/img/google.png" alt="Google Logo">
+        </div>
+
+        <div class="google__search">
+
+            <div class="search__bar">
+
+                <a href="#">
+                    <img class="microphone" src="./assets/img/microphone.png" alt="Microphone">
+                </a>
+                <a href="#">
+                    <img class="search" src="./assets/img/search.png" alt="Microphone">
+                </a>
+                <form action="submit">
+                    <input class="input__search" type="text">
+                </form>
+
+            </div>
+
+            <div class="form">
+
+                <form action="submit">
+    
+                    <input class="input__button" type="button" value="Buscar con Google" onclick="searching()">
+                    <input class="input__button" type="button" value="Me siento con suerte" onclick="luck()">
+    
+                </form>
+
+                <p class="google_idioms">Ofrecido por Google en:</p>
+                <a class="google__english" href="https://www.google.co.cr/setprefs?sig=0_QOOY3UDrp2wWQwvOrrbreHXxOHI%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwiPlI_j_873AhULRDABHQaiAqkQ2ZgBCA4" target="_blank">English</a>
+    
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="country">
+            <p class="from__country">Costa Rica</p>
+        </div>
+
+
+        <div class="footer__links">
+
+            <ul class="footer__left">
+                <li class="footer__li"><a href="https://www.google.co.cr/#:~:text=Costa%20Rica-,Sobre%20Google,-Publicidad" target="_blank">Sobre Google</a></li>
+                <li class="footer__li"><a href="https://ads.google.com/intl/es-419_cr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" target="_blank">Publicidad</a></li>
+                <li class="footer__li"><a href="https://www.google.co.cr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" target="_blank">Negocios</a></li>
+                <li class="footer__li"><a href="https://google.com/search/howsearchworks/?fg=1" target="_blank">Cómo funciona la Búsqueda</a></li>
+            </ul>
+
+            <ul class="footer__right">
+                <li class="footer__li"><a href="https://policies.google.com/privacy?hl=es-419&fg=1" target="_blank">Privacidad</a></li>
+                <li class="footer__li"><a href="https://policies.google.com/terms?hl=es-419&fg=1" target="_blank">Condiciones</a></li>
+                <li class="footer__li"><a href="https://www.google.co.cr/#:~:text=Condiciones-,Preferencias" target="_blank">Preferencias</a></li>
+            </ul>
+
+
+        </div>
+
+    </footer>
+
+
+    <script>
+
+        function searching() {
+
+            alert( "Buscando..." );
+
+        }
+
+
+        function luck() {
+
+            alert( "Buena suerte..." );
+
+        }
+    
+    </script>
+
+</body>
+</html>
